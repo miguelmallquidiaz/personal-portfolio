@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="assets/img/icon-1.png" type="image/x-icon">
+    <title>Miguel Mallqui | Portfolio Website</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Miguel Mallqui</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active" data-section="navbar" data-value="home">Incio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link" data-section="navbar" data-value="about">Sobre mi</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link" data-section="navbar" data-value="projects">Proyectos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link" data-section="navbar" data-value="contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="flags" class="flags nav__list">
+                
+                <div class="flags__item" data-language="es">
+                    <img src="assets/icons/pe.svg" alt="">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="assets/icons/gb.svg" alt="">
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home-content">
+                <h1 data-section="home" data-value="title">¡Hola, soy Miguel Mallqui!</h1>
+                <h3>Backend Developer | Business Intelligence</h3>
+                <p data-section="home" data-value="description">Estoy lleno de entusiasmo por seguir aprendiendo y así poder ofrecer soluciones aún más impactantes y efectivas. Puedes contactarme en LinkedIn.</p>
+                <div class="btn-box">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a> -->
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a> -->
+                </div>
+            </div>
+            <div class="">
+                <img class="home__blob-img" x="50" y="60" src="assets/img/perfil.png" />
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title" data-section="about" data-value="title">Sobre mi</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="img about">
+                </div>
+                <div>
+                    <p class="about__text" data-section="about" data-value="description">¡Hola! Soy un apasionado de tecnologías como Java, Power BI y Python. Tengo experiencia en el desarrollo con API utilizando Java y Python. Además, estoy inmerso en el fascinante mundo del análisis de datos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title" data-section="projects" data-value="title-projects">Proyectos</h2>
+            <div class="bd-grid">
+                <div class="btn-box btn">
+                    <a class="home__social-icon" onclick="addAll()">All</a>
+                    <a class="home__social-icon" onclick="removerBackend()">Backend</a>
+                    <a class="home__social-icon">Buisness Intelligence</a>
+                </div>
+            </div>
+
+            <div class="about__container bd-grid" id="work-01">
+                <div class="about__img about_a">
+                    <a href="#">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <h3 class="about__subtitle" data-section="project1" data-value="title">mar - feb 2024 | Sistema de matricula de cursos</h3>   
+                    <p class="about__text" data-section="project1" data-value="description">Un mini sistema de matrícula de cursos para universitarios, diseñado con Spring Boot e implementando una arquitectura REST, ofrece a los estudiantes una inscripción rápida y sencilla.</p>
+                    <div class="btn-box btn-projetcs">
+                        <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>  
+            </div>
+            <div class="about__container bd-grid" id="work-02">
+                <div class="about__img about_a">
+                    <a href="#">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <h3 class="about__subtitle" data-section="project2" data-value="title">mar - feb 2024 | Sistema de matricula de cursos</h3>   
+                    <p class="about__text" data-section="project2" data-value="description">Un mini sistema de matrícula de cursos para universitarios, diseñado con Spring Boot e implementando una arquitectura REST, ofrece a los estudiantes una inscripción rápida y sencilla.</p>
+                    <div class="btn-box btn-projetcs">
+                        <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>  
+            </div>
+            <!-- <div class="about__container bd-grid" id="work-02">
+                <div class="about__img about_a">
+                    <a href="#">
+                        <img src="assets/img/work2.avif" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <h3 class="about__subtitle">mar - feb 2024 | Miscritspon</h3>
+                    <p class="about__text">Un mini sistema de matrícula de cursos para universitarios, diseñado con Spring Boot e implementando una arquitectura REST, ofrece a los estudiantes una inscripción rápida y sencilla.</p>
+                    <div class="btn-box btn-projetcs">
+                        <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title" data-section="contact" data-value="title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <label for="name" data-section="contact" data-value="name">Nombre</label>
+                    <input type="text" id="name" class="contact__input">
+                    <label for="email" data-section="contact" data-value="email">Correo</label>
+                    <input type="mail" id="email" class="contact__input">
+                    <label for="msj" data-section="contact" data-value="message">Mensaje</label>
+                    <textarea id="msj" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" data-section="contact" data-value="boton" value="send" class="contact__button button" />
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__social">
+        </div>
+        <p class="footer__copy">&#169; Miguel Mallqui. All rights reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

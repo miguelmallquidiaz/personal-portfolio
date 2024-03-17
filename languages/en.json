@@ -1,0 +1,35 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About me",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Hi, I'm Miguel Mallqui",
+        "rol": "Backend Developer | Business Intelligence",
+        "description": "I am thrilled to continue learning and thus be able to offer even more impactful and effective solutions. You can contact me on LinkedIn."
+    },
+    "about": {
+        "title": "About me",
+        "description": "Hello! I'm passionate about technologies like Java, Power BI, and Python. I have experience in API development using Java and Python. Additionally, I'm immersed in the fascinating world of data analysis."
+    },
+    "projects": {
+        "title-projects": "Projects"
+    },
+    "project1": {
+        "title": "mar - feb 2024 | Course Enrollment System",
+        "description": "A mini course enrollment system for university students, designed with Spring Boot and implementing a REST architecture, offers students a quick and easy registration process."
+    },
+    "project2": {
+        "title": "mar - feb 2024 | Micritspon",
+        "description": "Un mini sistema de matrícula de cursos para universitarios, diseñado con Spring Boot e implementando una arquitectura REST, ofrece a los estudiantes una inscripción rápida y sencilla."
+    },
+    "contact": {
+        "title":"Contact",
+        "name":"Name",
+        "email":"Email",
+        "message":"Message",
+        "boton":"Send"
+    }
+}
